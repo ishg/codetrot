@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>About Me</title>
+<!--Add Style Sheets-->
+<link rel="stylesheet" type="text/css" href="style/style.css"/>
+<link rel="stylesheet" type="text/css" href="style/home.css" />
+<link rel="stylesheet" type="text/css" href="style/fonts.css" />
+<link rel="stylesheet" type="text/css" href="style/storyStyle.css" />
+</head>
+ 
+<body>
+		
+	<!--Navigation Bar-->
+	<div class="lavalamp" >
+		<ul >
+		<li class="main" ><a href="index.html">Home</a></li>
+		<li class="main" ><a href="#">Travels</a>
+			<ul class="sub_menu">
+				<li><a href="once.html">Appalachia</a></li>
+				<li><a href="italy.html">Italy</a></li>
+			</ul>
+		</li>
+		
+		
+		<li class="main"><a href="portfolio.html">Portfolio</a>
+			<ul class="sub_menu">
+				<li><a href="robot.html">Robot</a></li>
+			</ul>
+		</li>
+		<li class="main"><a href="impossible.html">Impossible List</a></li>
+        <li class="main"><a href="#">About Me</a>
+			<ul class="sub_menu">
+				<li><a href="bio.html">Bio</a></li>
+				<li><a href="resume.html">Resume</a></li>
+				<li><a href="contact.html">Contact Me</a></li>
+			</ul>
+		</li>
+		</ul>
+
+	<div class="floatr"></div>
+	</div>
+
+    <!--Header bar-->
+	<div id="header-container">
+            <div id= "headTop">
+                CodeTrot
+            </div>
+            <div id="headBottom">
+                <div id= "slogan">
+                     Coding my travels around the world
+            </div>
+            </div>
+            
+
+	</div>
+	
+	<div id="content-container">
+		<div id="container">
+            <!--INSERT CONTENT HERE-->
+
+			<h2> About Me </h2>
+			<div style="text-align:center;">
+				
+				<div class="about-profile">
+					<img src="images/profile.jpg" width="300" height="267"/>
+				</div>
+				<p>
+					What's up, Dear Reader. I'm Ishmeet Grewal, an undergraduate student at <strong><span style="color:red">The Ohio State University</span></strong>.
+					With a major in Computer Science and Engineering, I harbor a strong passion for programming and have recently become interested in web design.
+					By creating this website, I aim to develop web design skills as well as productively pass my summer. 
+				</p>
+				
+				<p>
+					I am also a keen traveller, and this website serves the additional purpose of sharing my travels around the world with my audience. I started this project 
+					after a recent trip to <a href="once.html">Appalachia</a> and hope to continue making it better once my upcoming 
+					trip to <a href="italy.html">Italy</a> is done. So, stay tuned for more goodies! 
+				</p>
+				
+			</div>
+			
+			
+			<div style="text-align:center; padding-bottom:20px;">
+				<a href="contact.html" style="font-family:AlteHaas; font-size:20px; color:deepskyblue; text-decoration:none;">Gimme Some Feedback!</a>
+			</div>
+
+		</div>
+				
+	</div>
+	
+	
+	<!--Include Scripts-->
+	<script src="js/jquery.js"></script>
+	<script src="js/modernizr.js"></script> 
+	<script type="text/javascript" src="js/navigation.js"></script>
+    <script type="text/javascript" src="js/backrandomizer.js"></script>
+	<script>
+	    (function ($) {
+
+	        $('.lavalamp li').hover(
+            //Mouseover, fadeIn the hidden hover class 
+            function () {
+                hidden_menu = $(this).children('.sub_menu');
+                //Get the li width - child with and split to 2, this is your [- marginleft].
+                mar_left = (hidden_menu.width() - $(this).width()) / 2;
+                hidden_menu
+                    .stop(true, true)
+                    .css({
+                        marginLeft: -mar_left
+                    })
+                    .slideDown('1000');
+            },
+            //Mouseout, fadeOut the hover class
+            function () {
+                $(this).children('.sub_menu').stop(true, true).slideUp('1000');
+            })
+	    })(jQuery);
+	</script>
+</body>
+</html>

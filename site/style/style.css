@@ -1,0 +1,341 @@
+body {	
+	background: url(images/Photos/8.jpg) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+ 
+#header-container {
+	width: 1024px;
+	height: 150px;
+    position:relative;
+    text-align:center;
+    margin: 0 auto;
+}
+
+    #headTop {
+        font-family:Amaranth;
+        font-size:7em;
+        color:#fff;
+        text-shadow:5px 5px 2px #333;
+        text-align:center;
+        width:438px;
+        display:inline-block;
+    }
+    #headBottom {
+        display:inline-block;
+    }
+
+    #slogan {
+        font-family:Jenna;
+        font-size:3em;
+        color:#104E8B;
+        text-align:center;
+        font-weight:900;
+        display:table-cell;
+        padding:10px;
+        vertical-align:top;
+        padding-left:40px;
+
+    }
+
+ 
+img {
+	border: none;
+}
+ 
+
+#content-container
+{
+	margin:auto;
+    margin-top:-50px;
+	width:1024px;
+	height:100%;
+	position:relative;
+}
+/*
+#content
+{
+	background-color:#ffffff;
+	padding-bottom:20px;
+	margin-bottom:20px;
+	border-bottom-right-radius:10px;
+	border-bottom-left-radius:10px;
+	position:relative;
+}
+*/
+/*Style for the page heading*/
+h1
+{
+font-family:remachine;
+text-align:center;
+color:#005200;
+font-size:300%;
+
+}
+
+/*Style for the day-headings*/
+h2
+{
+color:#0066cc;
+text-shadow: 0px 0px 2px #888888;
+margin-top:15px;
+margin-bottom:15px;
+margin-left:50px;
+margin-right:50px;
+font-family:olivier;
+font-size:300%;
+text-align:center;
+padding-top:20px;
+position:relative;
+top:0px;
+left:0px;
+
+/*clear:both;*/
+
+}
+
+
+
+/*Style for the sub-headings*/
+h3
+{
+color:#0066cc;
+text-align:center;
+margin-top:15px;
+margin-bottom:15px;
+margin-left:50px;
+margin-right:50px;
+font-family:olivier;
+font-size:150%;
+}
+
+
+/*Style for the paragraphs*/
+p
+{
+color:#B0E2FF;
+margin-top:25px;
+margin-bottom:25px;
+margin-left:50px;
+margin-right:50px;
+/*border:2px solid;
+border-radius:10px;
+background:#C2FF85;*/
+padding:10px;
+/*box-shadow: 5px 5px 10px #888888;*/
+line-height: 30px;
+/*word-spacing:1px;*/
+font-family:libertine;
+font-size:1.15em;
+font-weight:500;
+text-align:justify;
+}
+
+p a:link{
+	text-decoration:none;
+	color:#fff;
+	font-weight:bold;
+}
+
+p a:visited{
+	text-decoration:none;
+	color:#fFF;
+}
+p a:hover{
+	text-decoration:none;
+	color:deepskyblue;
+}
+
+
+/*About me page*/
+.about
+{
+	display: inline-block;
+	height:350px;
+	width:300px;
+	vertical-align: middle;
+	clear:both;
+	font-family:libertine;
+	font-size:17px;
+	line-height:25px;
+}
+.about-profile
+{
+	float:right;
+    padding:10px;
+    margin-right:50px;
+    margin-left:20px;
+}
+
+
+/*Contact me Page*/
+
+form td.bodytext
+{
+	font-family:newbold;
+	padding-top:5px;
+	padding-bottom:5px;
+	color:#005200;
+	font-size:20px;
+}
+
+form td #name
+{
+	border-radius:4px;
+	border: 2px solid green;
+	font-family:calibri;
+	color:DarkGreen;
+	font-size:18px;
+}
+
+form td #email
+{
+	border-radius:4px;
+	border: 2px solid green;
+	font-family:calibri;
+	color:DarkGreen;
+	font-size:18px;
+}
+
+form td #comment
+{
+	border-radius:4px;
+	border: 2px solid green;
+	font-family:calibri;
+	color:DarkGreen;
+	font-size:18px;
+}
+
+form td #button
+{
+	border-radius:4px;
+	background-color:crimson;
+	font-family:olivier;
+	font-size:20px;
+	color:white;
+}
+
+input, textarea
+{
+	padding:10px;
+	box-shadow: rgba(0,0,0,0.1) 0px 0px 8px;
+	-moz-box-shadow:rgba(0,0,0,0.1) 0px 0px 8px;
+	-webkit-box-shadow:rgba(0,0,0,0.1) 0px 0px 8px;
+}
+
+
+
+
+
+/*NAVGATION CSS*/
+
+
+.lavalamp {
+    position: relative;
+    padding: 15px;
+    -webkit-box-shadow: 0 3px 6px rgba(0,0,0,.25);
+    -moz-box-shadow: 0 3px 6px rgba(0,0,0,.25);
+    border-radius : 10px;
+    -moz-border-radius : 10px;
+    -webkit-border-radius : 10px;
+    height: 25px;
+	width:994px;
+	background : rgb(0,191,255);
+    background : -webkit-gradient(linear, left top, left bottom, from(rgb(0,191,255)), to(rgb(0,154,205)));
+    background : -moz-linear-gradient(top, rgb(0,191,255), rgb(0,154,205));
+    border: 1px solid #2f8893;
+	margin:0 auto;
+	z-index:1;
+}
+
+.lavalamp ul {
+    margin: 0;
+    padding: 0;
+    z-index: 300;
+    position: relative;
+	text-decoration:none;
+    text-align:center;
+}
+
+.main {
+	font-size:29px;
+}
+ 
+.lavalamp ul li {
+    list-style: none;
+    display:inline-block;
+	text-decoration:none;
+    text-align: center;
+	padding-left:5px;
+	padding-right:5px;
+}
+ 
+ 
+.lavalamp ul li a {
+    padding: 0 20px;
+    text-align: center;
+	color:#ffffff;
+	text-decoration:none;
+	font-family:"Georgia";
+	font-weight:bold;
+	
+}
+.lavalamp ul li a:visited{
+	text-decoration:none;
+}
+
+.lavalamp ul ul { 
+	display:none; 
+	/*position:relative; */ 
+	float:left;
+	background : rgb(0,191,255);
+    background : -webkit-gradient(linear, left top, left bottom, from(rgb(0,191,255)), to(rgb(0,154,205)));
+    background : -moz-linear-gradient(top, rgb(0,191,255), rgb(0,154,205));
+	/*z-index:999; */ 
+	border-radius:4px; 
+	/*margin:auto;*/
+	font-size:22px;
+	text-align:center;
+    margin:5px;
+	white-space:nowrap;
+	-webkit-box-shadow: 0 3px 6px rgba(0,0,0,.25);
+    -moz-box-shadow: 0 3px 6px rgba(0,0,0,.25);
+	
+} 
+.lavalamp ul ul li { 
+	float:none;
+	position:relative;
+	display:block; 
+	padding:10px;
+} 
+.lavalamp  ul ul a { 
+	padding:5px 5px; 
+	border-left:none; 
+	border-right:none; 
+	margin:auto; 
+	font-weight:normal;
+	text-align:center;
+	text-shadow: none;
+	position:relative;
+}
+.lavalamp ul ul a:hover { 
+	background-color: rgba(0,0,0,.20);
+	position:relative; 
+	border-radius:8px; 
+}
+.lavalamp ul:after { 
+	display:block; 
+	height:0; 
+	visibility:hidden; 
+	position:relative;
+	
+}  
+.lavalamp li a { 
+	display:block; 
+	padding:10px 20px; 
+	color: rgb(168, 255, 129); 
+	text-decoration:none; 
+}
+

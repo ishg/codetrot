@@ -1,0 +1,134 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<title>Vatican</title>
+<!--Add Style Sheets-->
+<link rel="stylesheet" type="text/css" href="style/style.css"/>
+<link rel="stylesheet" type="text/css" href="style/home.css" />
+<link rel="stylesheet" type="text/css" href="style/fonts.css" />
+<link rel="stylesheet" type="text/css" href="style/storyStyle.css" />
+</head>
+ 
+<body>
+		
+	<!--Navigation Bar-->
+	<div class="lavalamp" >
+		<ul >
+		<li class="main" ><a href="index.html">Home</a></li>
+		<li class="main" ><a href="#">Travels</a>
+			<ul class="sub_menu">
+				<li><a href="once.html">Appalachia</a></li>
+				<li><a href="italy.html">Italy</a></li>
+			</ul>
+		</li>
+		
+		
+		<li class="main"><a href="portfolio.html">Portfolio</a>
+			<ul class="sub_menu">
+				<li><a href="robot.html">Robot</a></li>
+			</ul>
+		</li>
+		<li class="main"><a href="impossible.html">Impossible List</a></li>
+        <li class="main"><a href="#">About Me</a>
+			<ul class="sub_menu">
+				<li><a href="bio.html">Bio</a></li>
+				<li><a href="resume.html">Resume</a></li>
+				<li><a href="contact.html">Contact Me</a></li>
+			</ul>
+		</li>
+		</ul>
+
+	<div class="floatr"></div>
+	</div>
+
+    <!--Header bar-->
+	<div id="header-container">
+            <div id= "headTop">
+                CodeTrot
+            </div>
+            <div id="headBottom">
+                <div id= "slogan">
+                     Coding my travels around the world
+            </div>
+            </div>
+            
+
+	</div>
+	
+	<div id="content-container">
+		<div id="container">
+            <!--INSERT CONTENT HERE-->
+            <h2>Vaticano</h2>
+            <h3><a href="https://plus.google.com/photos/110745696308108020413/albums/5895291824850941425?authkey=CL31p7jSrMmbTA">More Vatican Pictures!</a></h3>
+            <div class="left"><ul class="increaseleft"><li><img src="https://lh3.googleusercontent.com/-ZKrBUJUA5As/UeFbVuwPmpI/AAAAAAAAF_I/TSmS59qwGW4/w350-h200-no/IMG_4452.JPG" /><span><img src="https://lh3.googleusercontent.com/-ZKrBUJUA5As/UeFbVuwPmpI/AAAAAAAAF_I/TSmS59qwGW4/w750-h500-no/IMG_4452.JPG" /><br />Some awesome art inside the Vatican Museums.</span></li></ul></div>
+            <p>
+                The Italian Railways brought us back to the Eternal City where we had 
+                started out 13 glorious days ago. This time around, we were pretty familiar with
+                 Rome and after dropping off our bags and a quick lunch, we headed to the
+                 Vatican. This time around, in lieu of our short timetable, we picked a 
+                skip the line tour and were guided through the Vatican museusm and the 
+                Sistine chapel. 
+                </p>
+            <div class="right"><ul class="increaseright"><li><img src="https://lh3.googleusercontent.com/-ABr3uAQwMKQ/UeFbXO_lKtI/AAAAAAAAF_g/RS7p4VxDUWo/w350-h200-no/IMG_4465.JPG" /><span><img src="https://lh3.googleusercontent.com/-ABr3uAQwMKQ/UeFbXO_lKtI/AAAAAAAAF_g/RS7p4VxDUWo/w750-h500-no/IMG_4465.JPG" /><br />St. Peter's Square.</span></li></ul></div>
+            <p>
+                All the artwork was spectacular and mad props to Michelangelo
+                 for that amazing ceiling. But it was St. Peter’s Basilica that blew me away.
+                 The immense size of the church dwarfed everything around it and when I entered,
+                 I felt entirely alone despite the throngs of people milling around me. After two
+                 weeks of running around, it felt good to just quietly appreciate the magnificent
+                 architecture and the effect it had on me. 
+                </p>
+            <div class="left"><ul class="increaseleft"><li><img src="https://lh6.googleusercontent.com/-S4qXSmvU6ik/UeFbXgVWPVI/AAAAAAAAF_o/ULisIs_20jM/w350-h200-no/IMG_4467.JPG" /><span><img src="https://lh6.googleusercontent.com/-S4qXSmvU6ik/UeFbXgVWPVI/AAAAAAAAF_o/ULisIs_20jM/w750-h500-no/IMG_4467.JPG" /><br />The majestic St. Peter's Basilica from the inside.</span></li></ul></div>
+            <p>
+                There were sun rays coming down from a 
+                window in the dome and I almost expected to rise into Heaven as I walked into them. 
+                The whole place was absolutely magical. I can see your smile as you read this, thinking
+                 I’m being sarcastic. But I’m telling you, standing in there feeling quite at peace,
+                 I think it was a great way to end an excellent trip. 
+            
+            </p>
+            <div style="display:inline-block;">
+            <p style="color:#fff; font-size:1.25em;">
+                Thank you so very much for 
+                reading this all the way through. It took me quite a bit of work to make this
+                 website and to share my story with all of you, and I would really appreciate some 
+                <a style="color:lightskyblue" href="contact.html" >feedback</a>. I hope you can contain yourself until my next adventure! Thanks again for being so awesome! 
+            </p>
+                </div>
+            
+
+
+		</div>
+				
+	</div>
+	
+	
+	<!--Include Scripts-->
+	<script src="js/jquery.js"></script>
+	<script src="js/modernizr.js"></script> 
+	<script type="text/javascript" src="js/navigation.js"></script>
+    <script type="text/javascript" src="js/backrandomizer.js"></script>
+	<script>
+	    (function ($) {
+
+	        $('.lavalamp li').hover(
+            //Mouseover, fadeIn the hidden hover class 
+            function () {
+                hidden_menu = $(this).children('.sub_menu');
+                //Get the li width - child with and split to 2, this is your [- marginleft].
+                mar_left = (hidden_menu.width() - $(this).width()) / 2;
+                hidden_menu
+                    .stop(true, true)
+                    .css({
+                        marginLeft: -mar_left
+                    })
+                    .slideDown('1000');
+            },
+            //Mouseout, fadeOut the hover class
+            function () {
+                $(this).children('.sub_menu').stop(true, true).slideUp('1000');
+            })
+	    })(jQuery);
+	</script>
+</body>
+</html>

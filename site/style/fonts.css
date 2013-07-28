@@ -1,0 +1,56 @@
+﻿/*FONTS*/
+@font-face
+{
+font-family: olivier;
+src: url(fonts/olivier.ttf);
+}
+@font-face
+{
+font-family:remachine;
+src: url(fonts/remachine.ttf);
+}
+@font-face
+{
+font-family:Sanford;
+src: url(fonts/sanford.ttf);
+}
+@font-face
+{
+font-family:newbold;
+src: url(fonts/newbold.ttf);
+}
+@font-face
+{
+font-family:yeseva;
+src: url(fonts/yeseva.ttf);
+}
+@font-face
+{
+font-family:libertine;
+src: url(fonts/libertine.ttf);
+}
+@font-face
+{
+font-family:fatalserif;
+src: url(fonts/fatalserif.ttf);
+}
+@font-face {
+    font-family:'AlteHaas';
+    src:url(fonts/altehaas.ttf);
+}
+@font-face {
+  font-family: 'Amaranth';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Amaranth Bold'), local('Amaranth-Bold'), url(http://themes.googleusercontent.com/static/fonts/amaranth/v3/hh4Od9pccylRpuf5LUPgEobN6UDyHWBl620a-IRfuBk.woff) format('woff');
+}
+@font-face {
+  font-family: 'Life Savers';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Life Savers'), local('LifeSavers-Regular'), url(http://themes.googleusercontent.com/static/fonts/lifesavers/v3/_yRJoxB8KMO25_gswqItc4bN6UDyHWBl620a-IRfuBk.woff) format('woff');
+}
+@font-face {
+    font-family:'Jenna';
+    src:url(fonts/JennaSue.ttf);
+}

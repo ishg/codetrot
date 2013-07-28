@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>CodeTrot</title>
+<!--Add Style Sheets-->
+<link rel="stylesheet" type="text/css" href="style/style.css"/>
+<link rel="stylesheet" type="text/css" href="style/home.css" />
+<link rel="stylesheet" type="text/css" href="style/fonts.css" />
+<link rel="stylesheet" type="text/css" href="style/storyStyle.css" />
+</head>
+ 
+<body>
+		
+	<!--Navigation Bar-->
+	<div class="lavalamp" >
+		<ul >
+		<li class="main" ><a href="index.html">Home</a></li>
+		<li class="main" ><a href="#">Travels</a>
+			<ul class="sub_menu">
+				<li><a href="once.html">Appalachia</a></li>
+				<li><a href="italy.html">Italy</a></li>
+			</ul>
+		</li>
+		
+		
+		<li class="main"><a href="portfolio.html">Portfolio</a>
+			<ul class="sub_menu">
+				<li><a href="robot.html">Robot</a></li>
+			</ul>
+		</li>
+		<li class="main"><a href="impossible.html">Impossible List</a></li>
+        <li class="main"><a href="#">About Me</a>
+			<ul class="sub_menu">
+				<li><a href="bio.html">Bio</a></li>
+				<li><a href="resume.html">Resume</a></li>
+				<li><a href="contact.html">Contact Me</a></li>
+			</ul>
+		</li>
+		</ul>
+
+	<div class="floatr"></div>
+	</div>
+
+    <!--Header bar-->
+	<div id="header-container">
+            <div id= "headTop">
+                CodeTrot
+            </div>
+            <div id="headBottom">
+                <div id= "slogan">
+                     Coding my travels around the world
+            </div>
+            </div>
+            
+
+	</div>
+	
+	<div id="content-container">
+		<div id="home-container">
+            <!--INSERT CONTENT HERE-->
+			<!--Span for button-->
+            <span class="switch">OPEN!</span>
+		<h2>Welcome!</h2>
+            
+            <h3 style="border:none;">Hey there! I created this website to learn web design and spend my summer productively by writing the code for 
+                everything you see here with a little help from the internet. 
+            </h3>
+            <h3>    
+                As an added perk, you wonderful people get to read about my adventures to <a href="once.html">Appalachia</a> and <a href="italy.html">Italy</a>!
+            </h3>
+
+            <h3>Sorry for the slower speeds and messy url. I will be moving to a new server next month which should be much better.</h3>
+                
+            		
+			<p  class="text" style=" text-align: center;"> 
+                Thanks for being awesome and feel free to explore around!
+			</p>
+			
+
+
+		</div>
+				
+	</div>
+	
+	
+	<!--Include Scripts-->
+	<script src="js/jquery.js"></script>
+	<script src="js/modernizr.js"></script> 
+	<script type="text/javascript" src="js/navigation.js"></script>
+    <script type="text/javascript" src="js/backrandomizer.js"></script>
+	<script type="text/javascript" src="js/custom.js"></script>
+	<script>
+	    (function ($) {
+
+	        $('.lavalamp li').hover(
+            //Mouseover, fadeIn the hidden hover class 
+            function () {
+                hidden_menu = $(this).children('.sub_menu');
+                //Get the li width - child with and split to 2, this is your [- marginleft].
+                mar_left = (hidden_menu.width() - $(this).width()) / 2;
+                hidden_menu
+                    .stop(true, true)
+                    .css({
+                        marginLeft: -mar_left
+                    })
+                    .slideDown('1000');
+            },
+            //Mouseout, fadeOut the hover class
+            function () {
+                $(this).children('.sub_menu').stop(true, true).slideUp('1000');
+            })
+	    })(jQuery);
+	</script>
+</body>
+</html>

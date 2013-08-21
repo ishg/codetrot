@@ -101,7 +101,7 @@ left:0px;
 /*Style for the sub-headings*/
 h3
 {
-color:#0066cc;
+color:dodgerblue;
 text-align:center;
 margin-top:15px;
 margin-bottom:15px;
@@ -338,4 +338,65 @@ input, textarea
 	color: rgb(168, 255, 129); 
 	text-decoration:none; 
 }
+/*
+.floatr {
+    position: absolute;
+    top: 10px;
+    z-index: 50;
+    width: 70px;
+    height: 30px;
+    border-radius : 8px;
+    -moz-border-radius : 8px;
+    -webkit-border-radius : 8px;
+    background : rgba(0,0,0,.20);
+    -webkit-transition: all .4s ease-in-out;
+    -moz-transition: all .4s ease-in-out;
+}
+*/
 
+
+
+
+
+
+/*Impossible List*/
+.implist h3{
+	font-family:Sanford;
+	color:dodgerblue;
+	text-align:left;
+	border:none;
+	font-weight:bold;
+	font-size:1.5em;
+	padding:10px;
+	padding:10px;
+	margin:0;
+	float:none;
+	clear:none;
+	display:block;
+}
+
+.implist ul{
+	padding-left:50px;
+	margin:0;
+	color:white;
+	line-height:30px;
+}
+
+	.implist ul ul{
+		padding-left:50px;
+		line-height:30px;
+		
+	}
+.implist li{
+	padding:0;
+	margin:0;
+	color:white;
+	line-height:30px;
+	font-family:Sanford;
+	font-size:18px;
+	text-transform:capitalize;
+}
+	.implist li span{
+		color:steelblue;
+	}
+	

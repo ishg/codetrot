@@ -7,7 +7,7 @@
         overflow: visible !important;
         padding: 40px;
         position: relative;
-        top: 100px;
+        /*top: 100px;*/
         width: 900px;
         margin-bottom:20px;
 }
@@ -21,7 +21,7 @@
         overflow: visible !important;
         padding: 0px;
         position: relative;
-        top: 100px;
+        top: 50px;
         width: 0px;
         margin-bottom:20px;
 }

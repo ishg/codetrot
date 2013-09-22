@@ -1,7 +1,7 @@
 ﻿h3 {
-    text-align:center;
-    font-family:Sanford;
-    font-weight:bold;
+    text-align:left;
+    font-family:Helvetica;
+    /*font-weight:bold;*/
     color:white;
     border:none;
     clear:both;
@@ -15,13 +15,26 @@
 }
 
 .blueback {
-    background: url(http://www.furtzdesigns.com/cv/images/blue-trans.png) no-repeat;
+    background: url(blue-trans.png) no-repeat;
 }
+
+.pinkback{
+	background: url(http://www.furtzdesigns.com/cv/images/pink-trans.png) no-repeat;
+}
+
+.orangeback{
+	background: url(http://www.furtzdesigns.com/cv/images/orange-trans.png) no-repeat;
+}
+
 
 h4 {
     color:white;
     text-align:left;
-
+	margin-left: 50px;
+	line-height:30px;
+	font-family:Sanford;
+	font-size:20px;
+	
 }
 
 .leftside {

@@ -49,7 +49,7 @@ img {
 #content-container
 {
 	margin:auto;
-    margin-top:-50px;
+    /*margin-top:-100px;*/
 	width:1024px;
 	height:100%;
 	position:relative;
@@ -268,18 +268,19 @@ input, textarea
     display:inline-block;
 	text-decoration:none;
     text-align: center;
-	padding-left:5px;
-	padding-right:5px;
+	padding-left:7px;
+	padding-right:7px;
+	
 }
  
  
 .lavalamp ul li a {
-    padding: 0 20px;
+    padding: 0 24px;
     text-align: center;
 	color:#ffffff;
 	text-decoration:none;
-	font-family:"Georgia";
-	font-weight:bold;
+	font-family:Sanford;
+	font-weight:500;
 	
 }
 .lavalamp ul li a:visited{
@@ -308,7 +309,7 @@ input, textarea
 	float:none;
 	position:relative;
 	display:block; 
-	padding:10px;
+	padding:7px;
 } 
 .lavalamp  ul ul a { 
 	padding:5px 5px; 
@@ -373,6 +374,7 @@ input, textarea
 	float:none;
 	clear:none;
 	display:block;
+	margin-left: 43px;
 }
 
 .implist ul{
@@ -385,6 +387,7 @@ input, textarea
 	.implist ul ul{
 		padding-left:50px;
 		line-height:30px;
+		margin-left: -43px;
 		
 	}
 .implist li{
@@ -395,6 +398,7 @@ input, textarea
 	font-family:Sanford;
 	font-size:18px;
 	text-transform:capitalize;
+	margin-left: 43px;
 }
 	.implist li span{
 		color:steelblue;
